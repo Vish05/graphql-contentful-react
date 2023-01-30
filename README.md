@@ -6,12 +6,12 @@ In Contentful, relationships are modeled using links. An entry field can be a li
 
 Create New Account in [Contenful](https://www.contentful.com/sign-up/)
 
-# Contentful Environment Variable
+## Contentful Environment Variable
 
-1. [Space Id](https://www.contentful.com/help/find-space-id/)
-1. [API Key](https://training.contentful.com/student/page/1050378-api-keys)
-1. [Managment Token](https://www.contentful.com/developers/docs/references/authentication/)
-1. [GraphQL API Url](https://graphql.contentful.com/content/v1/spaces/)
+    - [Space Id](https://www.contentful.com/help/find-space-id/)
+    - [API Key](https://training.contentful.com/student/page/1050378-api-keys)
+    - [Managment Token](https://www.contentful.com/developers/docs/references/authentication/)
+    - GraphQL API Endpoint: https://graphql.contentful.com/content/v1/spaces/
 
 # Getting Started with Create React App
 
