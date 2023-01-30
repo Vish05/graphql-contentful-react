@@ -1,25 +1,33 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import MainNavigation from './shared/components/Navigation/MainNavigation';
+import MainHeader from './shared/components/Header/MainHeader';
+import Footer from './shared/components/Footer/Footer';
+import ProductList from './products/pages/ProductList';
+import ProductDetail from './products/pages/ProductDetail';
+import ProductCategory from './products/pages/ProductCategory';
+import Aboutus from './about/Aboutus';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <BrowserRouter>
+      <MainNavigation />
+      <MainHeader />
+      <section className="py-5">
+        <div className="container px-4 px-lg-5 mt-5">
+          <Routes>
+            <Route path='/' element={<ProductCategory />} />
+            <Route path='/aboutus' element={<Aboutus />} />
+            <Route path='/shop/products/:id/' element={<ProductDetail />} />
+            <Route path='/shop' element={<ProductList />} />
+          </Routes>
+        </div>
+      </section>
+      <Footer />
+    </BrowserRouter>
+
   );
 }
 
