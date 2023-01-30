@@ -8,10 +8,10 @@ Create New Account in [Contenful](https://www.contentful.com/sign-up/)
 
 # Contentful Environment Variable
 
-    1. [Space Id](https://www.contentful.com/help/find-space-id/)
-    2. [API Key](https://training.contentful.com/student/page/1050378-api-keys)
-    3. [Managment Token](https://www.contentful.com/developers/docs/references/authentication/)
-    4. GraphQL API Endpoint: https://graphql.contentful.com/content/v1/spaces/
+1. [Space Id](https://www.contentful.com/help/find-space-id/)
+2. [API Key](https://training.contentful.com/student/page/1050378-api-keys)
+3. [Managment Token](https://www.contentful.com/developers/docs/references/authentication/)
+4. GraphQL API Endpoint: https://graphql.contentful.com/content/v1/spaces/
 
 # Getting Started with Create React App
 
